@@ -1,5 +1,5 @@
 programa
-{	//Escreva um programa que mostre na tela todos os números pares entre 1000 e 1.
+{	//Escreva um programa que mostre na tela todos os números pares entre 1000 e 1.
 	
 	inteiro contador
 	
