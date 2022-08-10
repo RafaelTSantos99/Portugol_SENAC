@@ -1,15 +1,16 @@
 programa
-{	//Crie um programa que mostre na tela o somatório total da sequência de 20 frações:
+{	//Crie um programa que mostre na tela o somatório total da sequência de 20 frações:
 	//1 +1/2 + 1/3 +1/4 + [...] + 1/20.
 	
-	real somatorio, contador
+	real somatorio=0, contador
 	
 	funcao inicio()
 	{
-		para(contador = 0; contador <20; contador++){
-			somatorio = contador + 1/contador
+		para(contador = 1; contador <=20; contador++){
+			somatorio +=  (1/contador)
 		}
-		escreva(somatorio)
+		escreva(somatorio + "\n")
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
