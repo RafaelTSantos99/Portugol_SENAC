@@ -14,6 +14,7 @@ programa
 		enquanto(tentativas <= 4){
 			escreva("Jogador 2, digite um número: ")
 			leia(num2)
+			limpa()
 
 			se(num1==num2){
 				tentativas = tentativas + 1
