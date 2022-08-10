@@ -1,5 +1,5 @@
 programa
-{	//Escreva um algoritmo que some os números de 1 a 10, mostrando na tela as somas parciais e, no final, o total.
+{	//Escreva um algoritmo que some os números de 1 a 10, mostrando na tela as somas parciais e, no final, o total.
 	//A impressão deve seguir o padrão:
 	//3 (soma do número 1 com o número 2)
 	//6 (soma parcial com o número 3)
@@ -13,10 +13,10 @@ programa
 	funcao inicio()
 	{
 		para(contA = 1; contA <=10; contA++){
-			soma = contA+soma
-			escreva(soma + " (soma do número " + contA + " com o número " + soma + ")\n")
+			soma += contA
+			escreva(soma + "\n")
 		}
-		//escreva("Soma total: " + soma)
+		escreva("\nSoma total: " + soma)
 	}
 }
 /* $$$ Portugol Studio $$$ 
