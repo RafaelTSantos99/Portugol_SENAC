@@ -1,5 +1,5 @@
 programa
-{	//Crie um jogo de adivinhação no qual o jogador #1 escolhe um número entre 1 e 20, 
+{	//Crie um jogo de adivinhação no qual o jogador #1 escolhe um número entre 1 e 20, 
 	//e o jogador #2 tem 4 tentativas para acertar o número escolhido pelo jogador 1.
 
 
