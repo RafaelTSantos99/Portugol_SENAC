@@ -24,17 +24,8 @@ programa
 			escreva(vetor[cont] + " ")
 		}
 
-
-		para(contA=0;contA<=9;contA++){
-			para(contB=9;contB<=0;contB--){
-				aux = vetor[contB]
-				vetor[contB] = vetor[contA]
-				vetor[contA] = aux
-			}
-		}
-
 		escreva("\nNúmeros depois de ordernar: ")
-		para(cont=0;cont<=9;cont++){
+		para(cont=9;cont>=0;cont--){
 			escreva(vetor[cont] + " ")
 		}
 
@@ -46,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 640; 
+ * @POSICAO-CURSOR = 646; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {vetor, 9, 9, 5}-{aux, 10, 9, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
