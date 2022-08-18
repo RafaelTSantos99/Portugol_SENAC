@@ -8,24 +8,28 @@ programa
 	
 	inclua biblioteca Util --> u
 	
-	inteiro vetor[5]
+	inteiro vetorTempo[5]
+	cadeia vetorProfessor[5]
 	inteiro cont, fator
 	
 	funcao inicio()
 	{
 		//Inserir dados no vetor
 		para(cont = 0; cont <= 4; cont++){
-			escreva("Digite um número: ")
-			leia(vetor[cont])
+			escreva("Escreva o nome do professor: ")
+			leia(vetorProfessor[cont])
+			escreva("Digite o tempo de casa: ")
+			leia(vetorTempo[cont])
 		}
-		escreva("Escreva o fator: ")
-		leia(fator)
 		limpa()
 
-		escreva("Número \t\t X" + fator + "\n")
+		//Exibir os resultados
+		escreva("Professor" + "\tTempo de casa" + "\n")
 		para(cont=0;cont<=4;cont++){
-			escreva(vetor[cont] + "\t\t" + vetor[cont]*fator + "\n")
+			escreva(vetorProfessor[cont] + "\t \t" + vetorTempo[cont] + "\n")
 		}
+
+		
 
 	}
 }
@@ -35,9 +39,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 642; 
+ * @POSICAO-CURSOR = 796; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {vetor, 11, 9, 5};
+ * @SIMBOLOS-INSPECIONADOS = {vetorTempo, 11, 9, 10}-{vetorProfessor, 12, 8, 14};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

@@ -8,24 +8,28 @@ programa
 	
 	inclua biblioteca Util --> u
 	
-	inteiro vetor[5]
+	cadeia vetorCodigo[8]
+	inteiro vetorQuantia[8]
 	inteiro cont, fator
 	
 	funcao inicio()
 	{
 		//Inserir dados no vetor
-		para(cont = 0; cont <= 4; cont++){
-			escreva("Digite um número: ")
-			leia(vetor[cont])
+		para(cont = 0; cont <= 7; cont++){
+			escreva("Escreva o código do produto: ")
+			leia(vetorCodigo[cont])
+			escreva("Digite a quantia no estoque: ")
+			leia(vetorQuantia[cont])
 		}
-		escreva("Escreva o fator: ")
-		leia(fator)
 		limpa()
 
-		escreva("Número \t\t X" + fator + "\n")
-		para(cont=0;cont<=4;cont++){
-			escreva(vetor[cont] + "\t\t" + vetor[cont]*fator + "\n")
+		//Exibir os resultados
+		escreva("Código" + "\tQuantia em estoque" + "\n")
+		para(cont=0;cont<=7;cont++){
+			escreva(vetorCodigo[cont] + "\t \t" + vetorQuantia[cont] + "\n")
 		}
+
+		
 
 	}
 }
@@ -35,9 +39,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 642; 
+ * @POSICAO-CURSOR = 751; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {vetor, 11, 9, 5};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
