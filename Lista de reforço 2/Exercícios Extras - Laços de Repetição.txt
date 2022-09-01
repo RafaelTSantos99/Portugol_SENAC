@@ -1,0 +1,64 @@
+1. Escreva um algoritmo que verifique e mostre os números entre 1.000 e 2.000 (inclusive) que, quando divididos por 11 produzam resto igual a 2.
+
+2. Crie um programa que mostre as tabuadas dos números de 1 a 10 usando laços de repetição.
+
+3. Faça um programa que receba a idade de 15 pessoas e que calcule e mostre:
+a) A quantidade de pessoas em cada faixa etária;
+b) A percentagem de pessoas na primeira e na última faixa etária, com relação ao total de pessoas.
+As faixas etárias são:
+Até 15 anos
+De 16 a 30 anos
+De 31 a 45 anos
+De 46 a 60 anos
+Acima de 61 anos
+
+4. Escreva um programa que leia a idade, altura e o peso de 25 pessoas, Calcule e mostre:
+
+→ A quantidade de pessoas com idade superior a 50 anos;
+→ A média de altura das pessoas com idade entre 10 e 20 anos
+→ A porcentagem das pessoas com peso inferior a 40 quilos entre todas as pessoas analisadas.  
+
+5. Escreva um programa que leia o tamanho do lado de um quadrado e imprima na tela um quadrado daquele tamanho usando asteriscos e espaços em branco. Seu programa deve funcionar para quadrados com lados de todos os tamanhos entre 1 e 20.
+Por exemplo, para um quadrado de lado igual a 5:
+*****
+*   *
+*   *
+*   *
+*****
+
+6. Crie um programa que receba a idade, o peso, a altura, a cor dos olhos (A – Azul, P- Preto, V - Verde e C - Castanho) e a cor dos cabelos (P – Preto, C - Castanho, L – Louro e R - Ruivo) de 20 pessoas e que calcule e mostre:
+→ A quantidade de pessoas com idade superior a 50 anos e peso inferior a 60 quilos;
+→ A média das idades das pessoas com altura inferior a 1,50;
+→ A porcentagem de pessoas com olhos azuis entre a s pessoas analisadas;
+→ A quantidade de pessoas ruivas que não tenham olhos azuis; 
+
+7. Faça um programa que receba várias idades de pessoas e calcule e mostre a média das idades digitadas. Finalize digitando a idade igual a zero.
+
+8. Faça um programa que receba a idade e o sexo de 15 pessoas e que calcule e mostre:
+
+→ A idade média do grupo;
+→ A idade média das mulheres;
+→ A idade média dos homens; 
+
+9. Cada espectador de um cinema respondeu a um questionário no qual constava sua idade e a sua opinião em relação ao filme:
+ótimo – 3, bom – 2, regular – 1.
+Escreva um programa que receba a idade e a opinião de 15 espectadores e que calcule e mostre:
+
+→ A média das idades das pessoas que responderam ótimo;
+→ A quantidade de pessoas que respondeu regular;
+→ A porcentagem de pessoas que respondeu bom entre todos os espectadores analisados. 
+
+10. Faça um programa que receba os códigos de 4 ações negociadas na bolsa de valores, o preço de compra e o preço de venda de cada ação e que calcule e mostre:  
+
+O lucro de cada ação comercializada;
+A quantidade de ações com lucro superior a R$ 6.000,00;
+A quantidade de ações com lucro inferior a R$ 500,00;
+O lucro total do investidor.
+
+As ações negociadas são:
+VALE3
+TAEE11
+CSNA3
+ITSA4
+
+Finalize com o código de ação "ZZZZ".  
