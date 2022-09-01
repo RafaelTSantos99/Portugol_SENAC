@@ -28,20 +28,19 @@ programa
 			se(notaFilme==2){
 				j++
 			}
-
-
+		}
 		mediaIdadeTotal = totalIdade/15
 		escreva("A média total das idades que respondeu ótimo é: " + mediaIdadeTotal)
 		escreva("A quantia de pessoas que escreveu regular é: " + k)
 		escreva("A porcentagem de pessoas que respondeu bom é: " + (j/15)*100 + "%")
 	}
-}
+	
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1148; 
+ * @POSICAO-CURSOR = 892; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
