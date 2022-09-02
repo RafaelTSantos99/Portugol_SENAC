@@ -1,0 +1,31 @@
+Exercícios de Revisão - Vetores
+
+1. Crie e preencha um vetor de 12 posições com números inteiros, e em seguida leia também dois valores A e B quaisquer correspondentes a duas posições no vetor.
+No final seu programa deverá escrever a soma dos valores encontrados nas respectivas posições A e B.
+
+2. Declare um vetor de 10 posições e o preencha com os 10 primeiros números impares, e então o mostre na tela.
+
+3. Leia um vetor de 16 posições e troque os 8 primeiros valores pelos 8 últimos e vice-e-versa. Escreva ao final o vetor obtido.
+
+4. Leia um vetor de 40 posições (podem ser números aleatórios). Contar e escrever quantos valores pares ele possui.
+
+5. Leia dois vetores de 20 posições e calcule um terceiro vetor contendo, nas posições pares os valores do primeiro e nas posições impares os valores do segundo.
+
+6. Crie uma função que recebe um vetor de vinte posições de reais, como argumento, e retorne a soma dos elementos desse vetor.
+
+7. Crie um procedimento que gere os 10 primeiros números primos acima de 100 e os retorne em um vetor.
+
+8. Crie um procedimento que receba, por parâmetro, um vetor Y de 15 posições e retorne um outro vetor contendo apenas os valores primos de Y.
+
+9. Escreva um algoritmo que que gere 2 vetores de 10 elementos inteiros e que calcule e retorne um conjunto intersecção dos dois primeiros.
+
+10. Escreva um algoritmo que gere, automaticamente, uma matriz 5x5 preenchida, e que mostre na tela a soma dos seus elementos.
+
+11. Escreva um algoritmo que gere, automaticamente,, uma matriz 6x6 e que retorne a soma dos elementos da sua diagonal principal e da sua diagonal secundária.
+
+12. Crie um programa que gere uma matriz identidade de ordem 15x15, e a exiba na tela.
+Obs.:  Matriz identidade é uma matriz quadrada que possui todos os elementos da diagonal principal iguais a 1, e os demais iguais a 0.
+Ex.: Matriz identidade 3x3:
+1 0 0
+0 1 0
+0 0 1
