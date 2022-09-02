@@ -1,5 +1,6 @@
 programa
 {
+	inclua biblioteca Util --> u
 	/* 7. Faça um programa que receba várias idades de pessoas e calcule e mostre a média das idades digitadas. Finalize digitando a idade igual a zero.*/
 
 	real entraIdade,totalIdade=0,i=0,mediaIdade
@@ -8,8 +9,9 @@ programa
 	{
 		enquanto(verdadeiro){
 
-			escreva("Digite a idade: ")
-			leia(entraIdade)
+			escreva("\nDigite a idade: ")
+			entraIdade = u.sorteia(0, 100)
+			//leia(entraIdade)
 			
 			se(entraIdade == 0){
 				pare
@@ -21,7 +23,7 @@ programa
 		}
 
 		mediaIdade = totalIdade/i
-		escreva("A idade é média de " + i + " pessoas é: " + mediaIdade)
+		escreva("\nA idade é média de " + i + " pessoas é: " + mediaIdade)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 486; 
+ * @POSICAO-CURSOR = 527; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

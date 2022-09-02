@@ -20,13 +20,15 @@ programa
 		leia(tamanhoQuadrado)
 
 		para(inteiro i=1;i<=tamanhoQuadrado;i++){
-			para(inteiro j=1;j<=i;j++){
-				se(j==i ou j==tamanhoQuadrado){
-					escreva("*")
+			para(inteiro j=1;j<=tamanhoQuadrado;j++){
+				se(i==1 ou i==tamanhoQuadrado ou j==1 ou j==tamanhoQuadrado){
+					escreva("* ")
 				}
-
+				senao{
+					escreva ("  ")
+				}
 			}
-			
+			escreva("\n")
 		}
 
 	}
@@ -36,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 623; 
+ * @POSICAO-CURSOR = 643; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
