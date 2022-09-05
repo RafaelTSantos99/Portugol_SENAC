@@ -1,0 +1,77 @@
+Lógica de Programação
+Exercícios de Revisão: Operadores e Condicionais
+
+1. Faça um algoritmo que leia o tempo de duração de um evento em uma fábrica expressa em segundos e mostre-o expresso em horas, minutos e segundos.
+
+2. O custo ao consumidor de um carro novo é a soma do custo de fábrica com a porcentagem de lucro do distribuidor e dos impostos (aplicados sobre o custo de fábrica).
+Supondo que o lucro do distribuidor seja de 28% e os impostos de 45%, escreva um algoritmo que leia o custo de fábrica de um carro e escreva o custo final ao consumidor.
+
+3.  Um usuário precisa de um algoritmo onde possa escolher que tipo de média deseja calcular a partir de 3 valores.
+Faça um algoritmo que leia as notas, a opção escolhida pelo usuário e calcule a média.
+Os tipos de média são:
+
+1 - Aritmética
+2 - Ponderada (3,3,4)
+3 - Harmônica
+
+4. Escreva um programa que pergunte o raio de uma circunferência, e em seguida mostre o diâmetro, comprimento e área da circunferência . 
+
+5.0. Escrever um algoritmo que calcule os sucessivos valores de E usando a série abaixo:  
+
+E = 1 + 1/1! + 1/2! + 1/3! + 1/4!
+
+5.1. Crie um algoritmo que verifique se uma letra digitada por um usuário é uma vogal ou uma consoante.
+
+6. Escreva um programa para cálculo de folha de pagamento, sabendo que os descontos são do imposto de Renda (IR), que depende do salário bruto (conforme tabela abaixo), 3% para o Sindicato, INSS de 11% e FGTS de 8% do salário bruto, este último não descontado do salário (é a empresa que deposita).
+
+O salário líquido corresponde ao salário bruto menos os descontos.
+O programa deverá pedir ao usuário o valor da sua hora e a quantidade de horas trabalhadas no mês.
+
+Tabela de desconto do IR;
+b. Salário Bruto ate R$ 1000,00 (inclusive) – Isento;
+c. Salário Bruto até R$ 1600, 00 (inclusive) – desconto de 5%;
+d. Salario bruto até R$ 3200,00 (Inclusive) – desconto de 10%;
+e. Salário bruto acima de R$ 6000,00 – Desconto de 20%.
+Imprima na tela as informações, dispostas conforme o modelo abaixo, que usa como exemplo o valor de hora de R$ 10,00, com 200 horas trabalhadas no mês.  
+
+Salário bruto (10 * 220): R$ 2200,00
+( – ) IR (10%): R$ 220,00
+( – ) INSS (11%): R$ 242,00
+( – ) Sindicato (3%): R$ 66,00
+FGTS (8%): R$ 176,00
+
+Total de descontos: R$ 528,00
+Salário Líquido: R$ 1672,00
+
+7. Escreva um programa que leia os 3 lados de um triângulo. O programa deverá informar se os valores formam realmente um triângulo.
+Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno. Dicas:
+
+▲ Três lados formam um triangulo quando a soma de quaisquer dos dois lados é maior que o terceiro.
+▲ Triângulo Equilátero: três lados iguais;
+▲ Triângulo Isósceles: quaisquer dois lados iguais;
+▲ Triângulo Escaleno: três lados diferentes;
+
+8. Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax2 + bx + c. O programa deverá pedir os valores de a, b e c e fazer validações, informando ao usuário as seguintes situações:  
+
+a. Se o usuário informar o valor de A igual a zero. a equação não é do segundo grau e o programa não deve pedir os demais valores, sendo encerrado;
+b. Se o delta calculado for negativo, a equação não possui raízes reais. Informe ao usuário e encerre o programa;
+c. Se o delta calculado for igual a zero a equação possui apenas uma raiz real; calcule-a e mostre o resultado ao usuário;
+d. Se o delta for positivo, a equação possui duas raízes reais; calcule-as e mostre o resultado ao usuário;  
+
+9. Faça um programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
+Obs. Como saber se um ano é bissexto? Leia aqui: https://escolakids.uol.com.br/matematica/calculo-do-ano-bissexto.htm
+
+10. Um posto está vendendo combustíveis com a seguinte tabela de descontos:
+
+Álcool:
+Até 20 litros: desconto de 3% por litro
+Acima de 20 litros: Desconto de 5% por litro
+
+Gasolina:
+Até 20 litros: desconto de 4% por litro
+Acima de 20 litros, desconto de 6% por litro
+
+Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool. G-gasolina), calcule e imprima o valor a ser pago pelo cliente.  
+
+Preço do litro de álcool: R$ 6,02
+Preço do litro de gasolina: R$ 7,52
