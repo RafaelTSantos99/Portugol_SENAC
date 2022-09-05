@@ -8,5 +8,6 @@ O conteúdo abordado levou em consideração:
 <li>Laços de repetição;</li>
 <li>Vetores e Matrizes (arrays);</li>
 <li>Funções;</li>
+<li>Estruturas condicionais;</li>
 <li>Bibliotecas externas;</li>
 </ul>
