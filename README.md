@@ -3,10 +3,10 @@ Este repositório tem como objetivo criar um portfólio para demonstrar conhecim
 
 Os exemplos e exercícios estão divididos por tópicos de interesse no curso e fatores essenciais utilizados no desenvolvimento de um algoritmo.
 O conteúdo abordado levou em consideração:
-<ol>
-<ul>Operadores aritméticos;</ul>
-<ul>Laços de repetição;</ul>
-<ul>Vetores e Matrizes (arrays);</ul>
-<ul>Funções;</ul>
-<ul>Bibliotecas externas;</ul>
-</ol>
+<ul>
+<li>Operadores aritméticos;</li>
+<li>Laços de repetição;</li>
+<li>Vetores e Matrizes (arrays);</li>
+<li>Funções;</li>
+<li>Bibliotecas externas;</li>
+</ul>
